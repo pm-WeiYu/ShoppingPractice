@@ -1,0 +1,11 @@
+<!--index/welcome/welcome.wxml-->
+
+<view class='container'>
+  <image class='imageHead' src="/images/timg.jpg"></image>
+  <view>
+  </view>
+  <text class='motto'>大兄弟</text>
+  <view catchtap="loginSwiper" class='jq'>
+    <text class='jq-cat'>燥起来吧</text>
+  </view>
+</view>

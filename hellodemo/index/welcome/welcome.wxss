@@ -1,0 +1,38 @@
+
+.container{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+.imageHead{
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 160rpx;
+  /* 设置图片变原型 */
+  border-radius: 50%;
+}
+.motto{
+  margin-top: 100rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #9F4311;
+}
+.jq{
+  margin-top:200rpx;
+  border: 1px solid #EA5A3c;
+  width:200rpx;
+  height: 80rpx;
+  border-radius: 5px;
+  text-align: center;
+}
+.jq-cat{
+  font-size: 22rpx;
+  font-weight: bold;
+  line-height: 80rpx;
+  color: #EA5A3c
+}
+/* 设置页面text的文字样式 */
+text{
+  font-family: Microsoft YaHei;
+}
+/* 设置导航栏的颜色 */

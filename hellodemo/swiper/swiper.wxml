@@ -1,0 +1,50 @@
+<view>
+  <!--轮播图  -->
+  <!-- <swiper catchtap="onSwiperTap" vertical="{{false}}"  indicator-dots="true" autoplay="true" interval="5000" circular="true"> -->
+  <swiper catchtap="onSwiperTap" vertical="{{false}}"  indicator-dots="true" circular="true">
+    <swiper-item>
+      <image src="/images/swiper/swiper-1.jpg" data-post-id='3' />
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/swiper/swiper-2.jpg" data-post-id='4' />
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/swiper/swiper-3.jpg" data-post-id='5' />
+    </swiper-item>
+  </swiper>
+  <!-- 内容 -->
+  <view class="post-container">
+      <view class="post-author-date">
+        <image src="/images/swiper/swiper-1.jpg" />
+        <text>2018 09 05 Demo</text>
+      </view>
+      <text class="post-title">{{title}}</text>
+      <image class="post-image" src="/images/swiper/cat-1.jpg" mode="aspectFill" />
+      <text class="post-content">一日既往得喵生，吃了睡睡了吃</text>
+      <view class="post-like">
+        <image src="/images/icon/wx_app_collect.png" />
+        <text>1</text>
+        <image src="/images/icon/wx_app_view.png"></image>
+        <text>2</text>
+        <image src="/images/icon/wx_app_message.png"></image>
+        <text>0</text>
+      </view>
+    </view>
+    <view class="post-container">
+      <view class="post-author-date">
+        <image src="/images/swiper/swiper-1.jpg" />
+        <text>{{demo.date}}</text>
+      </view>
+      <text class="post-title">脑腐的日常生活</text>
+      <image class="post-image" src="/images/swiper/cat-1.jpg" mode="aspectFill" />
+      <text class="post-content">一日既往得喵生，吃了睡睡了吃</text>
+      <view class="post-like">
+        <image src="/images/icon/wx_app_collect.png" />
+        <text>1</text>
+        <image src="/images/icon/wx_app_view.png"></image>
+        <text>2</text>
+        <image src="/images/icon/wx_app_message.png"></image>
+        <text>0</text>
+      </view>
+    </view>
+</view>

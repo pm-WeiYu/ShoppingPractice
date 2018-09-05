@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "index/welcome/welcome",
+    "swiper/swiper"
+  ],
+  "window":{
+    "navigationBarTitleText": "tager"
+    ,
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  }
+
+}
